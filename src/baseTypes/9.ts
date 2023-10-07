@@ -7,8 +7,8 @@ type Page = {
   accounts: Array<string>;
   status: string;
   details?: {
-    createAt: unknown;
-    updateAt: unknown;
+    createAt: Date;
+    updateAt: Date;
   };
 };
 const page1:Page = {
